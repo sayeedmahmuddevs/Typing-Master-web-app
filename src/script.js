@@ -3,7 +3,7 @@ const data = [
   "I love coding and creating web applications that solve real-life problems efficiently",
   "JavaScript is very powerful and can be used for front-end, back-end, and full-stack development",
   "Practice makes a man perfect, so keep typing every day to improve your speed and accuracy",
-  "It yping speed comes with time, patience, and constant focus on accuracy rather than just speed",
+  "It typing speed comes with time, patience, and constant focus on accuracy rather than just speed",
   "Coding is a creative skill that allows you to build amazing things out of logic and imagination",
   "Never give up on your dreams even if the path is hard and full of obstacles and failures",
   "Hard work always pays off in the end, but consistency and persistence are the real keys to success",
@@ -121,7 +121,7 @@ const keycolm = document.querySelector(`.keyColum[data-keyindex="${smallltr}"]`)
 document.addEventListener('keyup',(e)=>{
 
   const smallltr = e.key.toLowerCase();
-const keycolm = document.querySelector(`.keyColum[data-keyindex="${smallltr}"]`)
+  const keycolm = document.querySelector(`.keyColum[data-keyindex="${smallltr}"]`)
   
 if(keycolm){
       keycolm.classList.remove('scale-80')
