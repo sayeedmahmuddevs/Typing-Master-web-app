@@ -1,16 +1,59 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⌨️ Keyboard Typing Practice App (React + Vite + Tailwind CSS)
 
-Currently, two official plugins are available:
+An **interactive keyboard typing practice web application** built with **React, Vite, and Tailwind CSS**.  
+This project helps users improve **typing speed, accuracy, and keyboard familiarity** through real-time feedback and a visual keyboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> ⚠️ Note: Tailwind CSS is installed via npm in this Vite React setup. Internet connection is required only for dependency installation, not for running the app locally.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- React-based dynamic UI  
+- Sentence-by-sentence typing practice  
+- Character-by-character validation  
+- Virtual keyboard highlights pressed keys  
+- Backspace support for corrections  
+- Auto move to next sentence after completion  
+- Key press sound effect  
+- Styled using **Tailwind CSS**  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Technologies Used
+
+- **React** (via Vite)  
+- **Vite** (fast dev server & build tool)  
+- **Tailwind CSS** (utility-first CSS framework)  
+- **Vanilla JavaScript** (typing logic)  
+- **HTML5**  
+
+---
+
+## 📂 Project Structure
+
+keyboard-typing-app/
+- │
+- ├── index.html
+- ├── package.json
+- ├── tailwind.config.js
+- ├── vite.config.js
+- ├── src/
+- │ ├── script.js
+- │ ├── index.css
+- │ ├── components/
+- │ └── assets/
+- │ └── keysound.mp3
+- ├── public/
+- └── README.md
+
+## ▶️ How to Open / Run the Project
+- npm install
+- npm run dev
+  
+then Copy the URL provided in the terminal (usually http://localhost:5173)
+
+The app will open with live reload
+![Web Developer](https://i.imgur.com/Bs5TunE.png)
