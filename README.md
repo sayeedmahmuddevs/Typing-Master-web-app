@@ -35,19 +35,19 @@ This project helps users improve **typing speed, accuracy, and keyboard familiar
 ## 📂 Project Structure
 
 keyboard-typing-app/
-│
-├── index.html
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
-├── src/
-│ ├── script.js
-│ ├── index.css
-│ ├── components/
-│ └── assets/
-│ └── keysound.mp3
-├── public/
-└── README.md
+- │
+- ├── index.html
+- ├── package.json
+- ├── tailwind.config.js
+- ├── vite.config.js
+- ├── src/
+- │ ├── script.js
+- │ ├── index.css
+- │ ├── components/
+- │ └── assets/
+- │ └── keysound.mp3
+- ├── public/
+- └── README.md
 
 ## ▶️ How to Open / Run the Project
 - npm install
@@ -56,3 +56,4 @@ keyboard-typing-app/
 then Copy the URL provided in the terminal (usually http://localhost:5173)
 
 The app will open with live reload
+![Web Developer](https://i.imgur.com/Bs5TunE.png)
